@@ -1,5 +1,6 @@
-
---- title: 3d Backend ---
+---
+title: 3D Backend
+---
 
 > [!note] Note
 > This is the root file for the semester project 3D Implementation with Terapool
