@@ -7,7 +7,10 @@ permalink: /
 
 # Welcome! 🌱
 
-<p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
+<!-- <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
+  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
+</p>
+ --><p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
   Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
 </p>
 
@@ -38,7 +41,7 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
 
 <p>Here are all the notes in this garden, along with their links, visualized as a graph.</p>
 
-{% include side_notes_graph.html %}
+<span>{% include side_notes_graph.html %}</span>
 
 
 <hr>
