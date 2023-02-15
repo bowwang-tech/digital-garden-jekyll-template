@@ -17,7 +17,7 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
 
 <iframe src="https://www.komoot.com/tour/959755370/embed?share_token=aIdCqgWBsEWLcVgZIU1far4ijUgnleZe8rQzCLJQOe7ovG4Ypi&profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
 
-<side>
+<side style="font-size: 0.9em">
   <strong>Recently updated notes</strong>
 
   <ul>
@@ -28,10 +28,13 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
       </li>
     {% endfor %}
   </ul>
+  
+  <style>
+    .wrapper {
+      max-width: 46em;
+    }
+  </style>
 </side>
 
-<style>
-  .wrapper {
-    max-width: 46em;
-  }
-</style>
+
+<hr>
