@@ -11,9 +11,9 @@ permalink: /
   Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
 </p>
  --><p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  <b>Hey folks! Good to see you here!</b>
+  <b>Hey folks! Good to see you here!</b> <br>
 
-  This website is designed to archive my recent blogs along with my study and research. Feel free to let me know if you have any comments or advice.:)
+  This website is designed to archive my recent blogs along with my study and research. Feel free to let me know if you have any comments or advice.:) <br>
 
   Take a look at <span style="font-weight: bold">[[Your first note]]</span> to have an overview of the topic and related blogs.
 </p>

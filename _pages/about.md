@@ -4,6 +4,8 @@ title: About
 permalink: /about
 ---
 
-*This is an about page.*
+# Who I am?
+
+
 
 Feel free to tell the world about what you love! 😍
