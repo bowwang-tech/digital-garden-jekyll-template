@@ -15,4 +15,4 @@ permalink: /about
 🎒 A Freitag lover.
 
 
-If interested, here is a link to my personal webset: [bowwang.dev](https://bowwang.dev) .:)
+If interested, here is a link to my personal webset: [bowwang.dev](https://bowwang.dev).
