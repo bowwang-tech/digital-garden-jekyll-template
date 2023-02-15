@@ -10,9 +10,9 @@ permalink: /about
 
 🤖 A tech lover. 
 
-⚒️ A chip designer.
+⚒️ A [chip](http://asic.ethz.ch/2022/Neo.html) designer.
 
-🎒 A Freitag lover.
+🎒 A [Freitag](https://freitag.ch) lover.
 
 
 If interested, here is a link to my personal webset: [bowwang.dev](https://bowwang.dev).
