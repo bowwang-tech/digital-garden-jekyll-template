@@ -33,7 +33,7 @@ Mempool has a shared multi-banked pool of *L1 memory*, among all **256** cores.
 * Internally: Each core has a dedicated port to access them with *1 cycle* latency (Latency source: ==ROB==) #todo Confirm the latency source.
 * Externally: Each tile shares ==K Master request== and ==K slave response== ports.
 	* ![[Pasted_image_20230112134313.png | 400]]
-	* <img src="/images/Pasted_image_20230112134313.png"/>
+	* <img src="/assets/Pasted_image_20230112134313.png"/>
 ## Group (Hierarchical approach)
 - $Top_H$ Each group contains ==16== tiles 
 	- Core --> Remote memory bank (**same group**): 3 cycles latency (Latency source: ==Master Request Register -> Master Response Register -> ROB==) 
