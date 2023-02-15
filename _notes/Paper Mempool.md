@@ -1,8 +1,7 @@
 ---
 title: Paper Mempool
 ---
-#paper #manycore 
->Frontend design for the Mempool manycore system. Root paper for project Terapool.
+>Frontend design for the Mempool manycore system. Root paper for project Terapool.  
 [Paper: Mempool](https://ieeexplore.ieee.org/document/9474087)
 
 # Abstract
