@@ -4,6 +4,7 @@ title: Paper Mempool
 #paper #manycore 
 >Frontend design for the Mempool manycore system. Root paper for project Terapool.
 [Paper: Mempool](https://ieeexplore.ieee.org/document/9474087)
+
 # Abstract
 This paper demonstrates that it is possible to scale up the ==shared-L1== architecture. All the cores share a global view of the L1 scratchpad memory pool, accessible within at most ==5 cycles==.
 #todo Good idea to see the reference paper [7] for the shared-L1 cache architecture.
