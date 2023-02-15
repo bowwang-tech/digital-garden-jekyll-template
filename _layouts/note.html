@@ -12,8 +12,9 @@ layout: default
   </div>
 
   <div id="notes-entry-container">
+    {% include notes_graph.html %}
+    <hr>
     <content>
-      {% include notes_graph.html %}
       {{ content }}
       <!-- <p>This line appears after every note.</p> -->
     </content>
