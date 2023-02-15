@@ -20,6 +20,7 @@ permalink: /
 
   <side style="font-size: 0.9em">
     <strong>Recently updated notes</strong>
+  </side> 
 
   <ul>
     {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
@@ -35,7 +36,7 @@ permalink: /
       max-width: 46em;
     }
   </style>
-  </side>
+
 </div>
 
 
