@@ -23,7 +23,7 @@ Mempool has a shared multi-banked pool of *L1 memory*, among all **256** cores.
 	* Core --(request)--> SPM 
 	* SPM --(response)-> Core
 * Basic topology: 16 ${\times}$ 16 radix-4 butterfly [Main Interconnect Reference](https://github.com/pulp-platform/cluster_interconnect/blob/master/rtl/tcdm_interconnect/README.md)
-	* ![[Pasted image 20230112133043.png | 300]]
+	* ![[Pasted_image_20230112133043.png | 300]]
 ## Core
 *  [[Snitch]]: A 21 kGE single-issue single-stage RISC-V-based RV32IMA core, ==supporting a conﬁgurable number of outstanding load instructions, which is useful to hide the SPM access latency.==
 #todo Further Reading
@@ -32,7 +32,8 @@ Mempool has a shared multi-banked pool of *L1 memory*, among all **256** cores.
 * 4 [[Snitch]] cores, and 16 [[SPM]] memory banks. 
 * Internally: Each core has a dedicated port to access them with *1 cycle* latency (Latency source: ==ROB==) #todo Confirm the latency source.
 * Externally: Each tile shares ==K Master request== and ==K slave response== ports.
-	* ![[Pasted image 20230112134313.png | 400]]
+	* ![[Pasted_image_20230112134313.png | 400]]
+	* <img src="/images/Pasted_image_20230112134313.png"/>
 ## Group (Hierarchical approach)
 - $Top_H$ Each group contains ==16== tiles 
 	- Core --> Remote memory bank (**same group**): 3 cycles latency (Latency source: ==Master Request Register -> Master Response Register -> ROB==) 
@@ -40,7 +41,7 @@ Mempool has a shared multi-banked pool of *L1 memory*, among all **256** cores.
 	* Internally: Local(==L==) interconnection: 16 $\times$ 16 radix-4 fully-connected crossbar
 	* Externally: North(==N==), Northeast(==NE==), and East(==E==) interconnection. 16 $\times$ 16 radix-4 butterfly network. **A register boundary at the groups' master interface**. ^MasterGroupRegister
 	* Inside each tile: a 4 $\times$ 4 crossbar routes the request to each port (L, N, NE, and E).
-* ![[Pasted image 20230112135805.png | 300]]
+* ![[Pasted_image_20230112135805.png | 300]]
 # Cluster
 The cluster is the top level of the Mempool architecture. A cluster contains 4 groups.
 Core --> Remote memory bank (**Remote groups**): 5 cycles latency. (Latency source: ==Tile Master Request Register -> [[Paper Mempool#^MasterGroupRegister | Group Master Request Register]] -> Tile Master Response Register -> Group Master Response Register -> ROB==). 
