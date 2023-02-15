@@ -11,14 +11,12 @@ permalink: /
   Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
 </p>
  --><p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
+  <b>Hey folks! Good to see you here!</b>
+
+  This website is designed to archive my recent blogs along with my study and research. Feel free to let me know if you have any comments or advice.:)
+
+  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to have an overview of the topic and related blogs.
 </p>
-
-
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
-
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
-
 
 
 <strong>Recently updated notes</strong>
@@ -26,7 +24,7 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
 
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
-  {% for note in recent_notes | limit: 5 %}
+  {% for note in recent_notes | limit: 10 %}
     <li>
       {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ note.url }}">{{ note.title }}</a>
     </li>
