@@ -37,9 +37,5 @@ permalink: /
   }
 </style>
 
-<p>Here are all the notes in this garden, along with their links, visualized as a graph.</p>
-
-<main>{% include notes_graph.html %}</main>
-
 
 <hr>
