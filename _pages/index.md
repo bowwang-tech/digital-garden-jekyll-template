@@ -38,7 +38,7 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
 
 <p>Here are all the notes in this garden, along with their links, visualized as a graph.</p>
 
-{% include notes_graph.html %}
+{% include side_notes_graph.html %}
 
 
 <hr>
