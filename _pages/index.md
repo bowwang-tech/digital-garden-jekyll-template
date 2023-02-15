@@ -17,16 +17,18 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
 
 <iframe src="https://www.komoot.com/tour/959755370/embed?share_token=aIdCqgWBsEWLcVgZIU1far4ijUgnleZe8rQzCLJQOe7ovG4Ypi&profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
 
-<strong>Recently updated notes</strong>
+<side>
+  <strong>Recently updated notes</strong>
 
-<ul>
-  {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
-  {% for note in recent_notes | limit: 5 %}
-    <li>
-      {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ note.url }}">{{ note.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+  <ul>
+    {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
+    {% for note in recent_notes | limit: 5 %}
+      <li>
+        {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ note.url }}">{{ note.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</side>
 
 <style>
   .wrapper {
