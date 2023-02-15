@@ -13,6 +13,7 @@ layout: default
 
   <div id="notes-entry-container">
     <content>
+      {% include notes_graph.html %}
       {{ content }}
       <!-- <p>This line appears after every note.</p> -->
     </content>
@@ -37,7 +38,7 @@ layout: default
       </div>
       {% endif %}
       Modifed graphic view with new the html file
-      {% include side_notes_graph.html %}
+      <!-- {% include side_notes_graph.html %} -->
     </side>
   </div>
 </article>
