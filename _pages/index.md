@@ -15,6 +15,8 @@ This digital garden template is free, open-source, and [available on GitHub here
 
 The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
 
+<iframe src="https://www.komoot.com/tour/959755370/embed?share_token=aIdCqgWBsEWLcVgZIU1far4ijUgnleZe8rQzCLJQOe7ovG4Ypi&profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
+
 <strong>Recently updated notes</strong>
 
 <ul>
