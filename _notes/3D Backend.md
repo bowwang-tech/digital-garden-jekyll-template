@@ -6,11 +6,11 @@ title: 3D Backend
 > This is the root file for the semester project 3D Implementation with Terapool
 
 # Background Knowledge
-[[Snitch]]
-[[SPM]]
+[[Snitch]]  
+[[SPM]]  
 # Papers
-[[Paper Mempool]]
-[[Paper Mempool 3D]]
+[[Paper Mempool]]  
+[[Paper Mempool 3D]]  
 	[[Paper Macro-3D Flow]]
 [[Paper Soft Tiles]]
 [[Paper TeraPool-Hier 3D]]
