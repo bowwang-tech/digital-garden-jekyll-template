@@ -13,4 +13,4 @@ permalink: /about
 If interested, here is a link to my personal webset: [bowwang.dev](https://bowwang.dev).  
 
 ## Contact
-- [Email](mailto:leeteuk30@gmail.com)
+- [Email](mailto:bowwang.blog@gmail.com)
