@@ -7,17 +7,15 @@ permalink: /
 
 # Welcome! 🌱
 
-<!-- <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
-</p>
- --><p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
+ <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
   <b>Hey folks! Good to see you here!</b> <br>
 
   This website is designed to archive my recent blogs along with my study and research. Feel free to let me know if you have any comments or advice.:) <br>
 
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to have an overview of the topic and related blogs.
+  Feel free to visit <a href="https://bowwang.dev">my site</a> for more information. 😺
 </p>
 
+<hr>
 
 <strong>Recently updated notes</strong>
 
@@ -39,3 +37,11 @@ permalink: /
 
 
 <hr>
+
+## Project Related
+
+#### [[3D Backend|3D Backend Design Flow]]
+
+## Course Related
+
+
